@@ -1,0 +1,25 @@
+{
+  "model": "BiLSTM",
+  "accuracy": 0.84408,
+  "f1": 0.8432523725269423,
+  "roc_auc": 0.9198293311999999,
+  "train_time_min": 3.909674620628357,
+  "epochs": 5,
+  "params": {
+    "vocab_size": 20000,
+    "embed_dim": 128,
+    "hidden_dim": 256,
+    "n_layers": 2,
+    "dropout": 0.3,
+    "batch_size": 64,
+    "max_len": 256,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "seed": 42
+  },
+  "length_analysis": {
+    "Kısa (0-50)": 88.2800608828006,
+    "Orta (51-200)": 86.11286365229583,
+    "Uzun (201+)": 81.74240920817623
+  }
+}

@@ -3,7 +3,7 @@
   "accuracy": 0.84408,
   "f1": 0.8432523725269423,
   "roc_auc": 0.9198293311999999,
-  "train_time_min": 3.909674620628357,
+  "train_time_min": 14.663937624295553,
   "epochs": 5,
   "params": {
     "vocab_size": 20000,
